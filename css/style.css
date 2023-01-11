@@ -1,0 +1,82 @@
+:root {
+  --primary: #ff9000;
+  --light: #f1f8ff;
+  --maroon: #9f0c0c;
+}
+
+.hero-header {
+  background: linear-gradient(rgba(159, 12, 12, 0.9), rgba(159, 12, 12, 0.9)),
+    url(../img/background-steak.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.aqiqahh1,
+.qurbanh1 {
+  font-family: "Roboto", sans-serif;
+}
+
+.qurbanh1,
+.text-about {
+  color: #ff9000;
+  font-style: normal;
+  font-family: "Roboto", sans-serif;
+}
+
+.text-map {
+  font-size: 16px;
+  font-style: normal;
+  font-family: "Roboto", sans-serif;
+  color: black;
+  font-weight: bold;
+}
+
+.btn {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+
+.btn-primary,
+.btn-secondary,
+.btn-warning {
+  color: #040406;
+  background-color: #ff9000;
+}
+
+.textfarm {
+  color: #ff9000;
+  font-size: 18px;
+  font-style: italic;
+  font-family: "Roboto", sans-serif;
+}
+
+.foot {
+  position: relative;
+  padding: 150px 0;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  position: relative;
+  margin-left: 25px;
+  padding: 35px 0;
+  font-size: 15px;
+  color: var(--light) !important;
+  text-transform: uppercase;
+  font-weight: 500;
+  outline: none;
+  transition: 0.5s;
+}
+
+@media (min-width: 992px) {
+  .navbar-dark {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background: transparent !important;
+  }
+}
